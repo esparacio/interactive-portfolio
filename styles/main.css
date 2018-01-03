@@ -123,7 +123,7 @@ p{
 }
 
 .hovertitle{
-    width: 80%;
+    width: 20%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10%;
@@ -135,9 +135,13 @@ p{
 
 .outerbox:hover > .hoverbox{
       opacity: 1;
+      margin-top:0;
+      padding-top:0.5em;
 }
 .outerbox:hover > .hovertitle{
+      width: 80%;
       padding:2em;
+      padding-bottom:0;
       margin-bottom:0;
       
 }
