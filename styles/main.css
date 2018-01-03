@@ -1,0 +1,72 @@
+/*
+<!--
+Interactive Portfolio Main CSS
+(C) Elena Sparacio 2017 
+-->
+*/
+
+a img:hover{
+    opacity: 0;
+    transition: opacity 2s ease;
+}
+
+body {
+  background: #f2f2f2;
+  font-family: 'Poiret One', cursive;
+}
+
+.button{
+    background:#f2f2f2;
+    color:#6699cc;
+    text-decoration:none;
+}
+
+.button:hover{
+    background:#0066ff;
+}
+
+
+
+h1{
+    border-top: 10px solid #f2f2f2;
+    color:#808080;
+    font-size: 2em;
+    margin-bottom: 0.1em;
+    margin-top:-0.5em;
+    padding: 0.1em;
+    text-align: center;
+}
+
+h2{
+    color:#808080;
+    font-size:1.3em;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0.1em;
+    text-align: center;
+}
+
+img{
+    display:block;
+    margin-bottom:0;
+    margin-left:auto;
+    margin-right:auto;
+    width:10%;
+}
+
+li a{
+    padding:1em;
+}
+
+
+#navbar li{
+    border: 2px solid #f2f2f2;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    margin-top:0;
+    padding:0.5em; 
+}
+
+#navbar ul{
+    width:100%;
+}
