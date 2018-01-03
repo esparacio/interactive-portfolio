@@ -4,55 +4,60 @@ Interactive Portfolio Home Page
 (C) Elena Sparacio 2017 
 -->
 <html>
-    <head>
-        <title>Interactive Portfolio</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles/main.css" type="text/css"/>
-        <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,700' rel='stylesheet' type='text/css'>
-        <script type="text/javascript" src="js/jquery-1.12.0.js"></script>
-    </head>
-    <body>
-        <script type="text/javascript">
-            $(document).ready(function(){
-                $("body").css("display","none");
-                $("body").fadeIn(1000);
-                $("#fadeBox").delay(1000).fadeOut(1500);
-                $("#fadeBox").fadeIn(1500);      
+
+<head>
+    <title>Interactive Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css" type="text/css" />
+    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,700' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="js/jquery-1.12.0.js"></script>
+</head>
+
+<body>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("body").css("display", "none");
+            $("body").fadeIn(1000);
+            $("#fadeBox").delay(1000).fadeOut(1500);
+            $("#fadeBox").fadeIn(1500);
         });
-        </script>
+    </script>
 
-            <br> 
-            <h1>Elena Sparacio</h1>
-            <h2>Computer Science</h2>
-            <ul id="navbar">
-                <li><a class="button" href="edu.html">EDUCATION</a></li>
-                <li><a class="button" href="csskills.html">COMPUTER SKILLS</a></li>
-                <li><a class="button" href="exp.html">EXPERIENCES</a></li>
-                <li><a class="button" href="port.html">PORTFOLIO</a></li>
-                <li><a class="button" href="pdfs/resume.pdf">RESUME</a></li>
-                <li><a class="button" href="contact.html">CONTACT ME</a></li>  
-            </ul>
-        <br>
+    <br>
+    <h1>Elena Sparacio</h1>
+    <h2>Computer Science</h2>
+    <ul id="navbar">
+        <li><a class="button" href="edu.html">EDUCATION</a></li>
+        <li><a class="button" href="csskills.html">COMPUTER SKILLS</a></li>
+        <li><a class="button" href="exp.html">EXPERIENCES</a></li>
+        <li><a class="button" href="port.html">PORTFOLIO</a></li>
+        <li><a class="button" href="pdfs/resume.pdf">RESUME</a></li>
+        <li><a class="button" href="contact.html">CONTACT ME</a></li>
+    </ul>
+    <br>
 
-        <div class="outerbox"> 
-           <div class="hoverbox" id="fadeBox">       
-           <h2>About</h2> 
-        <p>
-       I am currently a Software Engineer at ARRIS, an international telecommunications company in headquartered in Suwanee, GA. I work in the Research and Development CMTS verification department as part of the CLI team for the E6000 Converged Edge Router. I work mainly implementing features for the E6000 router, but I also am the team's expert on the CLI-TEST, a complex automated test that runs testing for thousands of commands. At this particular job, I use C++, Perl, and shell scripting for the majority of my work, but I have been exposed to Ruby and Go as well.   
-        </p>
-        <p>
-        Before ARRIS, I attended Elon University. At Elon, I developed technical skills, intellectual curiosity, and passion for computing. As one of two Computer Science Fellows in my year, I participated in undergraduate research to explore the potential of using a tangible interface/volumetric display in 3D mobile application development. Inside and outside of the classroom, I have created several applications spanning topics from mapping to cloud computing to game design, further detailed in the PORTFOLIO section, linked above. 
-        </p>
+    <div class="outerbox">
+        <div class="hovertitle">
+            <h2>About</h2>
         </div>
-        </div>   
-        <br>
-        <br>
-        <p id="copyright">
-            (C) Copyright Elena Sparacio 2017
-        </p>
-=
-    </body>
+        <div class="hoverbox" id="fadeBox">
+            <p>
+                I am currently a Software Engineer at ARRIS, an international telecommunications company in headquartered in Suwanee, GA. I work in the Research and Development CMTS verification department as part of the CLI team for the E6000 Converged Edge Router. I work mainly implementing features for the E6000 router, but I also am the team's expert on the CLI-TEST, a complex automated test that runs testing for thousands of commands. At this particular job, I use C++, Perl, and shell scripting for the majority of my work, but I have been exposed to Ruby and Go as well.
+            </p>
+            <p>
+                Before ARRIS, I attended Elon University. At Elon, I developed technical skills, intellectual curiosity, and passion for computing. As one of two Computer Science Fellows in my year, I participated in undergraduate research to explore the potential of using a tangible interface/volumetric display in 3D mobile application development. Inside and outside of the classroom, I have created several applications spanning topics from mapping to cloud computing to game design, further detailed in the PORTFOLIO section, linked above.
+            </p>
+        </div>
+    </div>
+    <br>
+    <br>
+    <p id="copyright">
+        (C) Copyright Elena Sparacio 2017
+    </p>
+    =
+</body>
+
 </html>
