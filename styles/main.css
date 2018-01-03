@@ -48,7 +48,7 @@ h2{
     text-align: center;
 }
 
-img{
+.backgroundImage{
     display:block;
     margin-bottom:0;
     margin-left:auto;
@@ -145,3 +145,30 @@ p{
       margin-bottom:0;
       
 }
+
+.imageBesideText {
+    width:30%;
+    height:30%;
+    padding: 1em;
+    border-radius:50%;
+    border:3px solid #002966; 
+    margin-left: 5%;   
+    text-align: center
+}
+
+.twoContent {
+    width: 100%;
+}
+
+.smallerContent {
+    float: left; 
+    width: 20%;
+}
+.largerContent {
+    float: left; 
+    width: 75%;
+    background:#002966;
+    padding: 1em;
+    color:#f2f2f2;
+}
+
