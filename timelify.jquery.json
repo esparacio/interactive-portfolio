@@ -22,7 +22,7 @@
   "bugs": "https://github.com/jquery/jquery-color/issues",
   "homepage": "https://github.com/jquery/jquery-color",
   "docs": "https://github.com/jquery/jquery-color",
-  "download": "http://code.jquery.com/#color",
+  "download": "https://code.jquery.com/#color",
   "dependencies": {
 	"jquery": ">=1.5"
   }
