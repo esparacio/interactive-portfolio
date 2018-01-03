@@ -99,3 +99,23 @@ p{
     margin-right:auto;   
     font-family: 'Raleway', sans-serif;
 }
+
+.outerbox{
+    width: 90%;
+    margin-left:auto;
+    margin-right:auto;    
+    background-image: url("images/home_background.jpg");
+    overflow:hidden;
+}
+.hoverbox{
+    width: 40%;
+    margin-left: auto;
+    margin-right: 5%;
+    margin-top: 5%;
+    opacity: 0;
+    transitions: all 0.8s ease;
+    background: rgba(255, 255, 255, 0.5);
+}
+.outer:hover > .box{
+    opacity: 1;
+}
