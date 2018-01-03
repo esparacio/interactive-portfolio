@@ -59,6 +59,13 @@ li a{
     padding:1em;
 }
 
+ul {
+    text-align: center;
+    width:100%;
+    padding: 0;
+    list-style-type: none;
+}
+
 #navbar li{
     border: 2px solid #f2f2f2;
     display: inline-block;
@@ -72,16 +79,11 @@ li a{
    border-left:2px solid #ccc;
 }
 
-#navbar ul{   
-    text-align: center;
-    width:100%;
-}
-
 p{
     font-family: 'Titillium Web', sans-serif;
-    width:85%;
 }
 
-#centered p{
-       text-align: center; 
+#centered {
+    text-align: center; 
+    width:85%;
 }
