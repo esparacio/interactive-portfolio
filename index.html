@@ -19,8 +19,8 @@ Interactive Portfolio Home Page
             $(document).ready(function(){
                 $("body").css("display","none");
                 $("body").fadeIn(1000);
-                $(".hoverbox").delay(1000).fadeOut(1500);
-                $(".hoverbox").fadeIn(1500);      
+                $("#fadeBox").delay(1000).fadeOut(1500);
+                $("#fadeBox").fadeIn(1500);      
         });
         </script>
 
@@ -38,7 +38,7 @@ Interactive Portfolio Home Page
         <br>
 
         <div class="outerbox"> 
-           <div class="hoverbox">       
+           <div class="hoverbox" id="fadeBox">       
            <h2>About</h2> 
         <p>
        I am currently a Software Engineer at ARRIS, an international telecommunications company in headquartered in Suwanee, GA. I work in the Research and Development CMTS verification department as part of the CLI team for the E6000 Converged Edge Router. I work mainly implementing features for the E6000 router, but I also am the team's expert on the CLI-TEST, a complex automated test that runs testing for thousands of commands. At this particular job, I use C++, Perl, and shell scripting for the majority of my work, but I have been exposed to Ruby and Go as well.   
