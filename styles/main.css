@@ -115,10 +115,10 @@ p{
     margin-right: auto;
     margin-top: 10%;
     margin-bottom: 10%;
-    padding: 1em;
+    padding: 2em;
     opacity: 0;
     transitions: all 0.8s ease;
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.75);
 }
 .outerbox:hover > .hoverbox{
     opacity: 1;
