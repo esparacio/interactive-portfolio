@@ -109,6 +109,7 @@ p{
     background-size: 100% 100%;
     overflow:hidden;
 }
+
 .hoverbox{
     width: 80%;
     margin-left: auto;
@@ -116,10 +117,12 @@ p{
     margin-top: 10%;
     margin-bottom: 10%;
     padding: 2em;
-    opacity: 0;
-    transitions: all 0.8s ease;
+    opacity: 1;
+    transition: all 2s ease;
     background: rgba(255, 255, 255, 0.75);
 }
-.outerbox:hover > .hoverbox{
-    opacity: 1;
+
+.hoverbox:hover{
+    opacity: 0;
+    transition: opacity 2s ease;
 }
