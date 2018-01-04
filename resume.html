@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+Interactive Portfolio Contact Page
+(C) Elena Sparacio 2017 
+-->
+<html>
+
+<head>
+    <title>Interactive Portfolio - Contact</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Poiret+One|Raleway|Titillium+Web|Satisfy" rel="stylesheet">
+    <link rel="import" href="includes/favicon.html">
+    <script type="text/javascript" src="js/jquery-1.12.0.js"></script>
+</head>
+
+<body>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("body").css("display", "none");
+            $("body").fadeIn(1000);
+            $("img").delay(1000).fadeOut(1500);
+            $("img").fadeIn(1500);         });
+    </script>
+
+    <br>
+    <h1>Elena Sparacio</h1>
+    <h2>Computer Science</h2>
+    <ul id="navbar">
+        <li><a class="button" href="index.html">ABOUT</a></li>              
+        <li><a class="button" href="experiences.html">EXPERIENCES</a></li>      
+        <li><a class="button" href="csskills.html">COMPUTER SKILLS</a></li>
+        <li><a class="button" href="port.html">PORTFOLIO</a></li>
+        <li><a class="button" href="resume.html">RESUME</a></li>
+        <li><a class="button" href="contact.html">CONTACT ME</a></li>
+    </ul>
+    <br>
+
+    <div class="quote" style="cursor:pointer;" onclick="window.open('pdfs/resume.pdf', '_blank');">
+        <img src="images/buttonlogo.png" alt="logo" class="centerimage"/>
+        <br>
+        <p class="cursive">"Any science or technology which is sufficiently advanced is indistinguishable from magic."</p>
+        <p class="cursive">~ Arthur C. Clark</p>
+        <br>
+        <p class="white">CLICK TO DOWNLOAD</p>
+        <br>
+    </div>
+
+    
+    <br>
+    <br>
+    <p id="copyright">
+        Viewing optimal on a desktop or tablet
+    </p>
+    <p id="copyright">
+        (C) Copyright Elena Sparacio 2017
+    </p>
+</body>
+
+</html>

@@ -146,29 +146,30 @@ p{
       
 }
 
-.imageBesideText {
-    width:30%;
-    height:30%;
-    padding: 1em;
-    border-radius:50%;
-    border:3px solid #002966; 
-    margin-left: 5%;   
-    text-align: center
-}
 
-.twoContent {
-    width: 100%;
-}
-
-.smallerContent {
-    float: left; 
-    width: 20%;
-}
-.largerContent {
-    float: left; 
-    width: 75%;
-    background:#002966;
-    padding: 1em;
+.cursive{
     color:#f2f2f2;
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+
+}
+
+.quote{
+    background:black;
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+.centerimage{
+    display: block;
+    margin: 0 auto; 
+    width: 10%;
+    height:10%; 
+}
+
+.white{
+    color:white;
+    text-align: center;    
 }
 

@@ -10,9 +10,8 @@ Interactive Portfolio Home Page
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/main.css" type="text/css" />
-    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Poiret+One|Raleway|Titillium+Web" rel="stylesheet">
+    <link rel="import" href="includes/favicon.html">
     <script type="text/javascript" src="js/jquery-1.12.0.js"></script>
 </head>
 
@@ -21,8 +20,6 @@ Interactive Portfolio Home Page
         $(document).ready(function() {
             $("body").css("display", "none");
             $("body").fadeIn(1000);
-            $("#fadeBox").delay(1000).fadeOut(1500);
-            $("#fadeBox").fadeIn(1500);
         });
     </script>
 
@@ -34,7 +31,7 @@ Interactive Portfolio Home Page
         <li><a class="button" href="experiences.html">EXPERIENCES</a></li>      
         <li><a class="button" href="csskills.html">COMPUTER SKILLS</a></li>
         <li><a class="button" href="port.html">PORTFOLIO</a></li>
-        <li><a class="button" href="pdfs/resume.pdf">RESUME</a></li>
+        <li><a class="button" href="resume.html">RESUME</a></li>
         <li><a class="button" href="contact.html">CONTACT ME</a></li>
     </ul>
     <br>
@@ -54,6 +51,9 @@ Interactive Portfolio Home Page
     </div>
     <br>
     <br>
+    <p id="copyright">
+        Viewing optimal on a desktop or tablet
+    </p>
     <p id="copyright">
         (C) Copyright Elena Sparacio 2017
     </p>
