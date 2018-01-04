@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <!--
-Interactive Portfolio Resume Page
+Interactive Portfolio Portfolio Page
 (C) Elena Sparacio 2017 
 -->
 <html>
 
 <head>
-    <title>Interactive Portfolio - Resume</title>
+    <title>Interactive Portfolio - Porfolio of Work</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/main.css" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Poiret+One|Raleway|Titillium+Web|Satisfy" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Poiret+One|Raleway|Titillium+Web" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
     <link rel="icon" type="image/png" sizes="32x32" href="images/icon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/icon/favicon-16x16.png">    
-    <script type="text/javascript" src="js/jquery-1.12.0.js"></script>
+    <link rel="icon" type="image/png" sizes="16x16" href="images/icon/favicon-16x16.png">    <script type="text/javascript" src="js/jquery-1.12.0.js"></script>
 </head>
 
 <body>
@@ -21,8 +21,7 @@ Interactive Portfolio Resume Page
         $(document).ready(function() {
             $("body").css("display", "none");
             $("body").fadeIn(1000);
-            $("img").delay(1000).fadeOut(1500);
-            $("img").fadeIn(1500);         });
+        });
     </script>
 
     <br>
@@ -37,29 +36,9 @@ Interactive Portfolio Resume Page
         <li><a class="button" href="contact.html">CONTACT ME</a></li>
     </ul>
     <br>
-
-    <div class="quote" style="cursor:pointer;" onclick="window.open('pdfs/resume.pdf', '_blank');">
-    <!-- The video -->
-    <video autoplay muted loop playsinline id="myVideo">
-        <source src="images/magic_background.mp4" type="video/mp4">
-    </video>
-        <br>
-
-        <div class="video_overlay">
-        <p class="cursive">"Any science or technology which is sufficiently advanced is indistinguishable from magic."</p>
-        <p class="cursive">~ Arthur C. Clark</p>
-        <br>
-        <p class="white">CLICK TO VIEW</p>
-        <br>
-        </div>
-    </div>
-
     
     <br>
     <br>
-    <p id="copyright">
-        Viewing optimal on a desktop or tablet
-    </p>
     <p id="copyright">
         (C) Copyright Elena Sparacio 2017
     </p>
