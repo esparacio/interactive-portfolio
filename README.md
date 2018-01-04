@@ -14,7 +14,7 @@ https://github.com/Liinkiing/jquery-timelify
 http://www.valleybiggs.com/media-advertising/
 http://hub.controlpay.com/h/i/325059990-5-mega-trends-that-will-reshape-logistics-and-transportation-video
 http://www.tacton.com/nl/wp-content/uploads/2017/02/iStock-601370366-750x420.jpg
-http://melissasbookworld.com/2016/10/31/wrap-up-oktober-2016/blue-glow-line-png-22/
+http://www.lopectech.com/wp-content/uploads/2014/06/gradient-abstract-blue-this-mellow-on-pinterest-68347.jpg
 
 * Video: https://www.youtube.com/watch?v=Yq_fVXatChk 
 

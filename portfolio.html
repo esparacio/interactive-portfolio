@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--
 Interactive Portfolio - Portfolio Page
-(C) Elena Sparacio 2017 
+(C) Elena Sparacio 2018 
 -->
 <html>
 
@@ -12,9 +12,14 @@ Interactive Portfolio - Portfolio Page
     <link rel="stylesheet" href="styles/main.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Poiret+One|Raleway|Titillium+Web" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <link rel="icon" type="image/png" sizes="32x32" href="images/icon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/icon/favicon-16x16.png">    
     <script type="text/javascript" src="js/jquery-1.12.0.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
 </head>
 
 <body>
@@ -23,7 +28,27 @@ Interactive Portfolio - Portfolio Page
             $("body").css("display", "none");
             $("body").fadeIn(1000);
         });
+
     </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.work_projects').slick({
+
+            dots: true,
+            infinite: true,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            cssEase: 'linear',
+            speed: 300,
+            slidesToShow: 2,
+            adaptiveHeight: true,
+            arrows:true,
+
+      });
+    });
+  </script>
+
 
     <br>
     <h1>Elena Sparacio</h1>
@@ -37,13 +62,54 @@ Interactive Portfolio - Portfolio Page
         <li><a class="button" href="contact.html">CONTACT ME</a></li>
     </ul>
     <br>
-    <!-- Add font awesome icons -->
-    <h2>Under Construction!</h2>
+    <div class="blueBackground">
+    <br>
+    <div class="transparentBox">
+    <h2>Undergraduate Research</h2>
+    <br>
+    <p class="slideText">My undergraduate research focused on innovative mobile application development through the use of volumetric/tangible displays. To learn more, view the PDF below</p>
+    <p class="slideText"><a href="pdfs/research.pdf">Click to view PDF describing my research</a></p>    
+    <br>
+    </div>
+    <br>
+    <div class="slides">
+    <div class="work_projects">
+        <div><img class="slideImage" src="images/research/presentation.jpg"></div>        
+        <div><img class="slideImage" src="images/research/cube1.jpg"></div>
+        <div><img class="slideImage" src="images/research/cube2.jpg"></div>
+        <div><img class="slideImage" src="images/research/cube3.jpg"></div>
+        <div><img class="slideImage" src="images/research/cube4.jpg"></div>
+        <div><img class="slideImage" src="images/research/cube5.jpg"></div>
+        <div><img class="slideImage" src="images/research/cubecode.png"></div>
+        <div><img class="slideImage" src="images/research/cubielights.jpg"></div>
+    </div>
+
+    <br>
+    <br>
+    <div class="transparentBox">
+    <h2>Game Design and Programming</h2>
+    <br>
+    <p class="slideText">I developed several games and skills during my Game Development class. Below, I have included images of a first person shooter game, a matching card game, a 3D model of a blob (for our final project, H20 Blob), and the scene for the H20 Blob game. Take a look at the final product of my H20 Blob below.</p>    
+    <p class="slideText"><a href="https://acuteh20blob.wordpress.com/">Click to view the H20 Blob Website</a></p>
+
+    <br>
+    </div>
+    <br>
+    <div class="slides">
+    <div class="work_projects">
+        <div><img class="slideImageWide" src="images/gameprog/blobblend.png"></div>        
+        <div><img class="slideImageWide" src="images/gameprog/fpsgame.png"></div>
+        <div><img class="slideImageWide" src="images/gameprog/cardgame.png"></div>
+        <div><img class="slideImageWide" src="images/gameprog/unityeditor.png"></div>
+    </div>
+    </div>
+    <br>
+    </div>
     
     <br>
     <br>
     <p id="copyright">
-        (C) Copyright Elena Sparacio 2017
+        (C) Copyright Elena Sparacio 2018
     </p>
 </body>
 

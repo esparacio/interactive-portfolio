@@ -262,6 +262,48 @@ hr{
     margin-bottom: 2vw;
 }
 
+.work_projects{
+    width:70vw;
+    margin:auto;
+}
+
+.slideImage{
+  width:20vw;
+  margin:auto;
+}
+
+.slideImageWide{
+  width:30vw;
+  margin:auto; 
+}
+
+.slides{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;  
+  width: 100%;
+}
+
+.slideText{
+  width:70vw;
+  margin:auto;
+  text-align: center;
+}
+
+.blueBackground{
+    width: 90%;
+    margin-left:auto;
+    margin-right:auto;    
+    background-image: url("../images/blue_background.jpg");
+    background-size: 100% 100%;
+    overflow:hidden;
+}
+
+.transparentBox{
+  background: rgba(255,255,255,0.85);
+}
+
 
 
 
