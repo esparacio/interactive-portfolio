@@ -213,4 +213,55 @@ p{
     text-align:center;
 }
 
+.row {
+  width: 90%;
+  margin:auto;
+  display: table;  
+}
+
+.column {
+    width: 30%;
+    padding: 1vw;
+    margin: 1vw;
+    text-align: center;
+    display: table-cell;
+    color:#f2f2f2;
+    vertical-align:middle;
+}
+
+#textCol{
+     background-image: url('../images/pretty_blue.jpg');
+     background-size: cover;
+}
+
+.column:hover{
+    opacity: 0.25;
+    transition: opacity 1s ease;
+}
+
+@media only screen and (max-width: 800px) {
+    .column { 
+        display: block;
+        width: 100%;
+    }
+}
+
+.smallImage{
+    width:10vw;
+    text-align: center;
+    margin-bottom: 0;
+    vertical-align:bottom;
+}
+
+hr{
+    background:#000066;
+    border:none;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000066), to(#f2f2f2));
+    height:1vw;
+    width:100%;
+    margin-bottom: 2vw;
+}
+
+
+
 
