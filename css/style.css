@@ -9,8 +9,8 @@ body {
   margin: 0 auto;
   padding: 40px;
   background: url("../images/blue_tech_background.jpg");
+  /*background:#2accf9 ;*/
   background-position: center top; 
-  box-shadow: 0 0 80px rgba(0, 0, 0, 0.2); }
 
 h3 {
   text-transform: uppercase; }
